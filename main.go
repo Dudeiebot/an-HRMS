@@ -25,7 +25,7 @@ const (
 )
 
 type Employee struct {
-	ID     string  `json:"id,omitempty" bson:"_id,omitempty"` // first time using these id as a type in our struct
+	ID     string  `json:"id,omitempty" bson:"_id,omitempty"` // first time using these id as a type in our struct, whhich is also binary format commonly used with MongoDB
 	Name   string  `json:"name"`
 	Salary float64 `json:"salary"`
 	Age    float64 `json:"age"`
